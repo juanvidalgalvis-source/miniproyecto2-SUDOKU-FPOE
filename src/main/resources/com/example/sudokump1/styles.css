@@ -1,0 +1,29 @@
+.cell {
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+    -fx-border-color: #333333;
+    -fx-border-width: 1;
+    -fx-background-color: #f6f6f6;
+}
+
+.cell.fixed {
+    -fx-background-color: #d9edf7;
+    -fx-font-weight: bold;
+}
+
+.cell.invalid {
+    -fx-background-color: #f2dede;
+    -fx-border-color: #a94442;
+}
+
+.cell.selected {
+    -fx-border-color: #428bca;
+    -fx-border-width: 2;
+}
+
+.root {
+    -fx-background-color: #ffffff;
+}
+
